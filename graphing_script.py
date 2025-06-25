@@ -55,5 +55,3 @@ for file in files:
 
     else:
         continue
-
-    #TODO: save plots and organize data into the appropriate folder
