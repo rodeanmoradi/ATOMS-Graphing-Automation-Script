@@ -16,7 +16,7 @@ for file in files:
     # only plot detail files
     if len(df) > 100:
         # plot csv files from experiments that rested cell differently
-        if df.loc[2, 'Current(A)'] == 0:
+        if df.loc[5, 'Current(A)'] == 0:
             # locate where rest ends
             restEnd = min(df.index[df['Current(A)'] > 0])
             # create plot, only plotting temperature vals after rest
