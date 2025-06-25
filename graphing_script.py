@@ -22,7 +22,7 @@ for file in files:
             # create plot, only plotting temperature vals after rest
             dfSlice = df.loc[restEnd:]
             plt.figure()
-            plt.plot(dfSlice['Test Time(s)'], dfSlice['Aux T2'])
+            plt.plot(dfSlice['Test Time(s)'], dfSlice['Aux T1'])
 
             # set y-value range
             plt.ylim(20, 30)
@@ -39,7 +39,7 @@ for file in files:
         else:
             # create plot
             plt.figure()
-            plt.plot(df['Test Time(s)'], df['Aux T2'])
+            plt.plot(df['Test Time(s)'], df['Aux T1'])
 
             # set y-value range
             plt.ylim(20, 30)
