@@ -19,6 +19,7 @@ for file in files:
         if df.loc[5, 'Current(A)'] == 0:
             # locate where rest ends
             restEnd = min(df.index[df['Current(A)'] > 0])
+
             # create plot, only plotting temperature vals after rest
             dfSlice = df.loc[restEnd:]
             plt.figure()
@@ -29,8 +30,8 @@ for file in files:
             
             # set titles
             plt.title('Thermocouple Temp. vs. Time')
-            plt.xlabel('Test Time')
-            plt.ylabel('Thermocouple 1 Temperature')
+            plt.xlabel('Test Time (s)')
+            plt.ylabel('Thermocouple 1 Temperature (ºC)')
 
             # display plot
             plt.grid(True)
@@ -46,8 +47,8 @@ for file in files:
             
             # set titles
             plt.title('Thermocouple Temp. vs. Time')
-            plt.xlabel('Test Time')
-            plt.ylabel('Thermocouple 1 Temperature')
+            plt.xlabel('Test Time (s)')
+            plt.ylabel('Thermocouple 1 Temperature (ºC)')
 
             # display plot
             plt.grid(True)
