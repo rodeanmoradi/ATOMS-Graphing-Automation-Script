@@ -24,9 +24,6 @@ for file in files:
             dfSlice = df.loc[restEnd:]
             plt.figure()
             plt.plot(dfSlice['Test Time(s)'], dfSlice['Aux T1'])
-
-            # set y-value range
-            plt.ylim(20, 30)
             
             # set titles
             plt.title('Thermocouple Temp. vs. Time')
@@ -41,9 +38,6 @@ for file in files:
             # create plot
             plt.figure()
             plt.plot(df['Test Time(s)'], df['Aux T1'])
-
-            # set y-value range
-            plt.ylim(20, 30)
             
             # set titles
             plt.title('Thermocouple Temp. vs. Time')
