@@ -10,4 +10,4 @@ Running similar tests on cells led to a repetitive data analysis process that co
 
 For some tests, the cell is rested for 2 hours to return to a state of thermal and electrochemical equilibrium. CSV files from such experiments are sliced so that only the relevant data is plotted.
 
-The data from cell testing comes with two CSV files: a detail file (the experimental data) and a step file (the procedural steps). For estimating the thermal properties of the cell (e.g., conductivities, heat transfer coefficient), the step file is not necessary. Therefore, step files are not plotted.
+The data from cell testing comes with two CSV files: a detail file (the experimental data) and a step file (the procedural steps). For estimating the thermal properties of the cell (e.g. conductivities, heat transfer coefficient), the step file is not necessary. Therefore, step files are not plotted.
