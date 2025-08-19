@@ -4,7 +4,7 @@
 
 At the Thermal Management Systems (TMS) Lab at ATOMS, my research project focuses on estimating the thermal characteristics of lithium-ion battery pouch cells used by the University of Toronto Formula Racing Team. I regularly run tests on the cells to generate a temperature rise, after which I plot the CSV data to ensure that everything went well. This Python script loops through each CSV file in my 'Unprocessed Data' folder and plots each one on a separate graph.
 
-Running similar tests on cells led to a repetitive data analysis process that could be automated to save time. This inspired me to complete this project. It improved data analysis efficiency by 81%, resulting in a process that is 5× faster.
+Running similar tests on cells led to a repetitive data analysis process that could be automated to save time. This inspired me to complete this project. It increased analysis efficiency by 81%, accelerating the workflow 5×.
 
 ## Features
 
